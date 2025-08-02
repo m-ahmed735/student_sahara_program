@@ -1,0 +1,72 @@
+name: student_sahara_program
+description: "A new Flutter project for Student Sahara Program."
+
+# Prevent accidental publishing
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+# Flutter SDK environment
+environment:
+  sdk: ^3.6.1
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+  introduction_screen: ^3.1.12
+  smooth_page_indicator: ^1.1.0 # For a modern page indicator
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.2.1
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.4
+  image_picker: ^1.1.2
+  file_picker:
+  intl: ^0.19.0
+  provider: 6.1.2
+
+# Dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linting
+  flutter_lints: ^5.0.0
+
+  # App launcher icons package
+  flutter_launcher_icons: ^0.13.1
+
+# Flutter-specific settings
+flutter:
+  # Enables the Material Icons font
+  uses-material-design: true
+
+  # Assets for images, icons, etc.
+  assets:
+    - assets/icons/mylogo3.png
+    - assets/icons/mylogo.png
+    - assets/images/onboarding/welcome.png
+    - assets/images/onboarding/onboarding1.png
+    - assets/images/onboarding/donation.jpg
+    - assets/images/onboarding/loan.jpg
+    - assets/images/onboarding/handshake.jpg
+    - assets/images/onboarding/classroom.jpg
+    - assets/images/onboarding/onboarding1_2.png
+    - assets/icons/mylogo2.png
+    - assets/images/onboarding/welcome.jpg
+    - assets/icons/google-icon.png
+
+
+# App icon configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/mylogo.png" # Path to your app logo
+  adaptive_icon_background: "#ffffff" # Optional for Android adaptive icons

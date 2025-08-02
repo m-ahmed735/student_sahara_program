@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100588736987",
+    "project_id": "student-sahara-program-37aa0",
+    "storage_bucket": "student-sahara-program-37aa0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100588736987:android:e2181e62225345b43fd7fe",
+        "android_client_info": {
+          "package_name": "com.example.student_sahara_program"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAszyB5htE1WUNxsP2zBJdSlFZH_opNIvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
